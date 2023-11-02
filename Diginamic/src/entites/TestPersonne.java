@@ -9,10 +9,19 @@ public class TestPersonne {
         AdressePostale aP2 = new AdressePostale(28, "Rue de Belfort", 21000, "Dijon");
 
         Personne p = new Personne("Kanzouai", "Chaimae", aP);
-        Personne p2 = new Personne("Bouka", "Yous", aP2);
+        Personne p2 = new Personne("bouka", "Yous", aP2);
 
         System.out.println(p.nom);
         System.out.println(p2.adressePostale.codePostal);
+
+        p2.afficherPersonne();
+        p2.modifierNom("kanzouai");
+        p2.modifierAdresse(aP);
+        String nomp2 = p.returnNom();
+        String pren = p.returnPrenom();
+        AdressePostale ap = p.returnAP();
+        System.out.println(nomp2 + " " + pren + " " + ap);
+       // System.out.println(p2.);
 
         //Personne p = new Personne();
        // p.adressePostale = new AdressePostale();
