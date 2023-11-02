@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Approche_Objet.iml" filepath="$PROJECT_DIR$/.idea/Approche_Objet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Diginamic/Diginamic.iml" filepath="$PROJECT_DIR$/Diginamic/Diginamic.iml" />
+    </modules>
+  </component>
+</project>
