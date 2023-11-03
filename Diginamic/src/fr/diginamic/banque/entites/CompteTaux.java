@@ -12,8 +12,8 @@ public class CompteTaux  extends Compte{
 
     @Override
     public String toString() {
-        return "{ " + super.toString() +
-                "taux de remuneration=" + tauxRemuneration +
+        return super.toString() +
+                ", taux de remuneration=" + tauxRemuneration +
                 '}';
     }
 

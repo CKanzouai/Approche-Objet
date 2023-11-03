@@ -31,6 +31,6 @@ public class Compte {
         return "Compte{" +
                 "numeroCompte=" + numeroCompte +
                 ", solde=" + solde +
-                '}';
+                ' ';
     }
 }
